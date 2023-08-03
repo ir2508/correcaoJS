@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: REM, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0C1323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-top: 20px solid greenyellow;
+    width: 300px;
+    height: 500px;
+    background-color: #1E204C;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-critico {
+    border-color: darkred;
+}
+
+.card-desejavel {
+    border-color: darkturquoise;
+}
+
+.card h2{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.card h4 {
+    color: #ccc;
+}
+
+.card input {
+    padding: 5px 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card p {
+    color: #ccc;
+}
+
+.card span{
+    padding: 10px 20px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card span:hover {
+    box-shadow: 0px 0px 20px greenyellow;
+}
